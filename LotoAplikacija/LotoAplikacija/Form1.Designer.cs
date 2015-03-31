@@ -1,4 +1,4 @@
-﻿namespace LotoAplikacija
+﻿namespace loto
 {
     partial class Form1
     {

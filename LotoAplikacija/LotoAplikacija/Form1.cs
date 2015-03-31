@@ -8,10 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LotoAplikacija
+namespace loto
 {
     public partial class Form1 : Form
     {
+        private Loto loto;
         public Form1()
         {
             InitializeComponent();
@@ -29,36 +30,32 @@ namespace LotoAplikacija
             vrijednosti.Add(txtUplaceniBroj6.Text);
             vrijednosti.Add(txtUplaceniBroj7.Text);
 
-            bool ispravnaKombinacija ==Loto.UnesiUplaceneBrojeve(vrijednosti);
-            if(ispravnaKombinacija==true)
+
+            bool ispravnaKombinacija = loto.UnesiUplaceneBrojeve(vrijednosti);
+            if (ispravnaKombinacija == true)
             {
-                btnOdigraj.Enabled=true;
+                btnOdigraj.Enabled = true;
             }
-            else{
-                btnOdigraj.Enabled==false;
-                Message.Show("Kombinacija uplaćenih brojeva nije ispravna!");
+            else
+            {
+                btnOdigraj.Enabled = false;
+                MessageBox.Show("Kombinacija brojeva nije ispravna");
             }
         }
 
         private void btnOdigraj_Click(object sender, EventArgs e)
         {
-            Loto.GenerirajDobitnuKombinaciju();
-
+            loto.GenerirajDobitnuKombinaciju();
             txtDobitniBroj1.Text = loto.DobitniBrojevi[0].ToString();
-            txtDobitniBroj1.Text = loto.DobitniBrojevi[1].ToString();
-            txtDobitniBroj1.Text = loto.DobitniBrojevi[2].ToString();
+            txtDobitniBroj2.Text = loto.DobitniBrojevi[1].ToString();
+            txtDobitniBroj3.Text = loto.DobitniBrojevi[2].ToString();
+            txtDobitniBroj4.Text = loto.DobitniBrojevi[3].ToString();
+            txtDobitniBroj5.Text = loto.DobitniBrojevi[4].ToString();
+            txtDobitniBroj6.Text = loto.DobitniBrojevi[5].ToString();
+            txtDobitniBroj7.Text = loto.DobitniBrojevi[6].ToString();
 
-            txtDobitniBroj1.Text = loto.DobitniBrojevi[3].ToString();
-
-            txtDobitniBroj1.Text = loto.DobitniBrojevi[4].ToString();
-
-            txtDobitniBroj1.Text = loto.DobitniBrojevi[5].ToString();
-            txtDobitniBroj1.Text = loto.DobitniBrojevi[6].ToString();
-
-            int brojPogodaka = loto.IzracunajBrojPogodaka();
+            int brojPogodaka = loto.intIzracunajBrojPogodaka();
             lblBrojPogodaka.Text = brojPogodaka.ToString();
-
         }
-
     }
 }

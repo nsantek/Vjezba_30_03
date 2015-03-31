@@ -1,5 +1,9 @@
 C:\Users\Nikola\Documents\GitHub\Vjezba_30_03\LotoAplikacija\LotoAplikacija\bin\Debug\LotoAplikacija.exe.config
 C:\Users\Nikola\Documents\GitHub\Vjezba_30_03\LotoAplikacija\LotoAplikacija\obj\Debug\LotoAplikacija.csprojResolveAssemblyReference.cache
-C:\Users\Nikola\Documents\GitHub\Vjezba_30_03\LotoAplikacija\LotoAplikacija\obj\Debug\LotoAplikacija.Form1.resources
 C:\Users\Nikola\Documents\GitHub\Vjezba_30_03\LotoAplikacija\LotoAplikacija\obj\Debug\LotoAplikacija.Properties.Resources.resources
 C:\Users\Nikola\Documents\GitHub\Vjezba_30_03\LotoAplikacija\LotoAplikacija\obj\Debug\LotoAplikacija.csproj.GenerateResource.Cache
+C:\Users\Nikola\Documents\GitHub\Vjezba_30_03\LotoAplikacija\LotoAplikacija\obj\Debug\loto.Form1.resources
+C:\Users\Nikola\Documents\GitHub\Vjezba_30_03\LotoAplikacija\LotoAplikacija\bin\Debug\LotoAplikacija.exe
+C:\Users\Nikola\Documents\GitHub\Vjezba_30_03\LotoAplikacija\LotoAplikacija\bin\Debug\LotoAplikacija.pdb
+C:\Users\Nikola\Documents\GitHub\Vjezba_30_03\LotoAplikacija\LotoAplikacija\obj\Debug\LotoAplikacija.exe
+C:\Users\Nikola\Documents\GitHub\Vjezba_30_03\LotoAplikacija\LotoAplikacija\obj\Debug\LotoAplikacija.pdb
